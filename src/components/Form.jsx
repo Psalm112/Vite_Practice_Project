@@ -67,7 +67,7 @@ function Form({ h1Text, isLogin }) {
             className={
               isLogin
                 ? "text-offwhite font-medium text-3xl mb-[2vh] relative after:content-[''] after:absolute after:bottom-[-5px] after:right-[-5px] after:block after:h-[50%] after:w-[30%] after:border-[#00bbba] after:border-solid after:border-b-[1px] after:border-r-[1px] after:animate-[fillIn_1s_linear] before:content-[''] before:absolute before:top-[-5px] before:left-[-5px] before:block before:h-[50%] before:w-[30%] before:border-[#00bbba] before:border-solid before:border-t-[1px] before:border-l-[1px] before:animate-[fillIn_1s_linear] md:mb-[10vh] md:text-5xl"
-                : "text-offwhite font-medium text-3xl mb-[2vh text-center md:mb-[5vh] md:w-[30%]"
+                : "text-offwhite font-medium text-3xl mb-[2vh] w-[80%] text-center md:mb-[5vh] md:w-[30%]"
             }
           >
             {h1Text}
