@@ -153,7 +153,7 @@ function LoginForm({ setIsOtp, setForgetPassword, forgotPassword }) {
         <Text className="text-sm text-offwhite md:hidden">
           Don't have an account?
           <ChakraLink as={ReactRouterLink} to="/register" color="#00bbba">
-            &nbsp; Sign Up
+            &nbsp;Sign Up
           </ChakraLink>
         </Text>
       </form>

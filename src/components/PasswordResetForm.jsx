@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import {
   Input,
@@ -24,7 +24,6 @@ function PasswordResetForm({
     handleSubmit,
     clearErrors,
     reset,
-    resetField,
     getValues,
     setError,
     formState: { errors, isSubmitSuccessful },
@@ -63,7 +62,7 @@ function PasswordResetForm({
   const [confirmPassword, setConfirmPassword] = useState(false);
   const [show, setShow] = useState(false);
   const handleClick = () => setShow(!show);
-  const handleOtp = () => setIsOtp(true);
+  // const handleOtp = () => setIsOtp(true);
   return (
     <>
       <div className="self-center w-[80%] md:w-[60%]">
@@ -197,7 +196,6 @@ function PasswordResetForm({
                 page in a bit.
               </p>
               <HStack
-                size="lg"
                 className={
                   !isPasswordChanged ? "justify-center w-full" : "!hidden"
                 }
