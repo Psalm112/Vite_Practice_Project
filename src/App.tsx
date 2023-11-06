@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Register />,
   },
 ]);
-function App() {
+export default function App() {
   return (
     <>
       <RouterProvider router={router} />
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
